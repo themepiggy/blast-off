@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blast off coming soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blast off coming soon page with jquery timer">
+    <meta name="author" content="themestrap.com">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Blast-Off</a>
+          <div class="pull-right">
+            <ul class="nav">
+              <li><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
+              <li><a href=""><img src="img/facebook.png" alt="facebook"></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="placeholder span8 offset2">
+          <div class="blastoff">
+            <h2>Counting down</h2>
+            <p>We aren't ready yet, but our new site will be blasting off soon.</p>
+            <div class="timer">  
+              <div id="countdown"></div>
+              <div id="note"></div>
+            </div>
+            <br />
+            <h2>In the meantime</h2>
+            <p>Sign up. We hate spam. We won't send spam. Just a friendly reminder when we launch.</p>
+            <form class="form-inline">
+              <label for="Email">Your email</label>
+              <input type="text" class="input-large" placeholder="Email" name="Email" />
+              <button type="submit" class="btn btn-success">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+      <div class="row">
+        <div class="span12">
+          <p><a href="http://themepiggy.com">Blast-off</a> theme by themepiggy.com</p>
+        </div>
+      </div>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.countdowner.js"></script>
+    <!-- blastoff.js contains the date for the countdown -->
+    <script type="text/javascript" src="js/blasoff.js"></script>
+
+  </body>
+</html>
